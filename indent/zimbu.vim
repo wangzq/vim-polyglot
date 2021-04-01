@@ -17,8 +17,7 @@ setlocal ai nolisp nocin
 setlocal indentexpr=GetZimbuIndent(v:lnum)
 setlocal indentkeys=0{,0},!^F,o,O,0=ELSE,0=ELSEIF,0=CASE,0=DEFAULT,0=FINALLY
 
-" We impose recommended defaults: no Tabs, 'shiftwidth' = 2
-setlocal sw=2 et
+setlocal sw=4 et
 
 let b:undo_indent = "setl et< sw< ai< indentkeys< indentexpr="
 

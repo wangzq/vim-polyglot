@@ -2893,7 +2893,7 @@ if !has_key(g:polyglot_is_disabled, 'autoindent')
       return 1
     endif
 
-    let shiftwidth = s:get_shiftwidth(indents)
+    let shiftwidth = 4
 
     if shiftwidth > 0
       setlocal expandtab
